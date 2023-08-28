@@ -91,40 +91,13 @@
       "date": "3/28/2023"
     },
     {
-      "position": "ali",
-      "company": "ali",
-      "location": "",
-      "status": "Mülakat",
-      "type": "Tam Zamanlı",
-      "id": "a28f1467-da14-4f3b-be5d-fe4fb6eb00ab",
-      "date": "07.08.2023"
-    },
-    {
-      "position": "iiii",
-      "company": "ffiifiif",
-      "location": "fff,,f,f",
-      "status": "Mülakat",
-      "type": "Tam Zamanlı",
-      "id": "b398fdd5-d5f3-4fb6-88a0-90298c08908a",
-      "date": "16.08.2023"
-    },
-    {
-      "position": "fff",
-      "company": "ff",
-      "location": "dd",
+      "position": "Frontend Developer",
+      "company": "Twitter",
+      "location": "San Francisco",
       "status": "Devam Ediyor",
-      "type": "Uzaktan",
-      "id": "acfa895e-60f6-404c-9f65-7a4f70c1d7c9",
-      "date": "16.08.2023"
-    },
-    {
-      "position": "ffifi",
-      "company": ",ff,,f",
-      "location": "f,f,f",
-      "status": "Devam Ediyor",
-      "type": "Uzaktan",
-      "id": "56464f48-3f98-45a3-95cc-25f95e7c3125",
-      "date": "16.08.2023"
+      "type": "Tam Zamanlı",
+      "id": "11aac76a-7037-4f25-916d-3a630fe7a4ba",
+      "date": "28.08.2023"
     }
   ]
 }
