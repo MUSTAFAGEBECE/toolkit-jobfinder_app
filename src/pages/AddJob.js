@@ -12,25 +12,24 @@ const AddJob = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // formun son halini vererek bir form verisi oluşturma
+   
     const formData = new FormData(e.target);
 
-    // form verilerinden bir obje oluşturma
+    
     const dataObj = Object.fromEntries(formData);
 
-    // objeye id ekleme
+   
     dataObj.id = v4();
 
-    // eklenme tarihi oluşturma
     dataObj.date = new Date().toLocaleDateString();
 
-    //! 1. adım API'yi güncelleme
+   
     axios.post('http://localhost:3030/jobs', dataObj).then(() => {
-      //! 2. store'u güncelle
+    
       dispatch(addJob(dataObj));
-      // anasayfa yönlendir
+   
       navigate('/');
-      // Bildirim göster
+      
       toast.success('Başarıyla Eklendi', {
         position: 'top-right',
         autoClose: 3000,

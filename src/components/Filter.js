@@ -14,17 +14,17 @@ import { useDispatch } from 'react-redux';
 const Filter = () => {
   const dispatch = useDispatch();
 
-  // input her değiştiğinde çalışır
+
   const handleSearch = (e) => {
     dispatch(filterBySearch(e.target.value));
   };
 
-  // durum selecti değişince çalışır
+
   const handleStatus = (e) => {
     dispatch(filterByStatus(e.target.value));
   };
 
-  // type selecti değişince çalışır 
+ 
   const handleType = (e) => {
     dispatch(filterByType(e.target.value));
   };
